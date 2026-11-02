@@ -143,6 +143,21 @@ div.gallery figure{
     height: auto;
 }
 
+.questionForm label, .questionForm [type=text], .questionForm [type=tel], .questionForm [type=email], .questionForm textarea, .questionForm select{
+    margin: .5rem;
+    display: block;
+}
+
+.questionForm [type=text], .questionForm [type=tel], .questionForm [type=email], .questionForm textarea, .questionForm select{
+    background-color: #eee;
+    color: #120024;
+    font-family: "Nunito", sans-serif;
+}
+
+.questionForm legend{
+    color: #007bb5;
+}
+
 footer{
     background-color: #0009b5;
     padding: .5rem 0;
