@@ -143,19 +143,42 @@ div.gallery figure{
     height: auto;
 }
 
-.questionForm label, .questionForm [type=text], .questionForm [type=tel], .questionForm [type=email], .questionForm textarea, .questionForm select{
+.questionForm label, .questionForm [type=text], .questionForm [type=tel], .questionForm [type=email], .questionForm textarea, .questionForm select, .questionForm [type=submit]{
     margin: .5rem;
     display: block;
-}
-
-.questionForm [type=text], .questionForm [type=tel], .questionForm [type=email], .questionForm textarea, .questionForm select{
-    background-color: #eee;
     color: #120024;
     font-family: "Nunito", sans-serif;
 }
 
+.questionForm [type=text], .questionForm [type=tel], .questionForm [type=email], .questionForm textarea, .questionForm select{
+    background-color: #d7b9ff49;
+    border: 1px solid #3200b5;
+    border-radius: 5px;
+    width: 225px;
+}
+
+.questionForm fieldset{
+    border: 2px solid #007bb5;
+    border-radius: 5px;
+    margin-bottom: 1.2rem;
+}
+
 .questionForm legend{
     color: #007bb5;
+}
+
+.questionForm textarea{
+    height: 5rem;
+}
+
+.questionForm [type=submit]{
+    padding: 10px;
+    color: #6d00b5;
+    background-color: #007bb5;
+    border: 2px solid #3200b5;
+    border-radius: 5px;
+    margin: 0 0 1rem 1vw;
+    font-size: .9rem;
 }
 
 footer{
